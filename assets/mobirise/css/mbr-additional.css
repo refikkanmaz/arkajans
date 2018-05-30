@@ -49,10 +49,10 @@ body {
 }
 .display-7 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.28rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -654,13 +654,13 @@ a:hover {
   box-shadow: none;
   color: #565656;
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1.07em .5em;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.28rem;
 }
 .form-control,
 .form-control:focus {
@@ -1746,7 +1746,7 @@ body {
 .cid-qB4PSjmzLU {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #efefef;
+  background-color: #ffffff;
 }
 .cid-qB4PSjmzLU .list-group-item {
   padding: .75rem 3.25rem;
@@ -1811,9 +1811,9 @@ body {
   color: #ff3366;
 }
 .cid-qB4PWr9M5c {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #fafafa;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-image: url("../../../assets/images/mbr-1440x1080.jpg");
 }
 .cid-qB4PWr9M5c h3 {
   text-align: center;
@@ -1875,10 +1875,10 @@ body {
   content: '100';
 }
 .cid-qB4PWr9M5c .progress2 .progressbar-number:before {
-  content: '90';
+  content: '95';
 }
 .cid-qB4PWr9M5c .progress3 .progressbar-number:before {
-  content: '80';
+  content: '99';
 }
 .cid-qB4PWr9M5c .progress4 .progressbar-number:before {
   content: '70';
@@ -1894,43 +1894,9 @@ body {
     padding-left: 3rem;
   }
 }
-.cid-qB4PVAQdGb {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #efefef;
-}
-.cid-qB4PVAQdGb .pricing {
-  padding: 3.3rem;
-  color: #767676;
-  background-color: #fff;
-}
-@media (max-width: 767px) {
-  .cid-qB4PVAQdGb .pricing {
-    padding: 1.5rem;
-  }
-}
-.cid-qB4PVAQdGb .plan-header,
-.cid-qB4PVAQdGb .plan-body {
-  background-color: #fff;
-}
-.cid-qB4PVAQdGb .plan-title {
-  margin-top: 1.4rem;
-}
-.cid-qB4PVAQdGb .price-figure {
-  font-weight: 700;
-  color: #232323;
-}
-@media (max-width: 550px) {
-  .cid-qB4PVAQdGb .price-figure {
-    font-size: 4.25rem;
-  }
-}
-.cid-qB4PVAQdGb .price-value {
-  font-weight: 700;
-  vertical-align: top;
-}
-.cid-qB4PVAQdGb hr {
-  margin: 2rem 0;
+.cid-qB4PWr9M5c .progressbar-title p,
+.cid-qB4PWr9M5c .progress_value {
+  color: #ff3366;
 }
 .cid-qB31WLFEI4 {
   background-image: url("../../../assets/images/background2.jpg");
@@ -1944,7 +1910,8 @@ body {
 }
 .cid-qB31WLFEI4 .mbr-text,
 .cid-qB31WLFEI4 .mbr-section-btn {
-  color: #149dcc;
+  color: #333333;
+  text-align: left;
 }
 .cid-qB4PaVB89G {
   padding-top: 90px;
@@ -2003,6 +1970,15 @@ body {
 }
 .cid-qB4PaVB89G .plan-title {
   color: #ff3366;
+}
+.cid-qB4PaVB89G .price-term {
+  color: #074bf2;
+}
+.cid-qB4PaVB89G LI {
+  color: #cc2952;
+}
+.cid-qB4PaVB89G UL {
+  text-align: left;
 }
 .cid-qB4OEVlMCC {
   padding-top: 0px;
